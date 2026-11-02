@@ -1,0 +1,20 @@
+{
+  "endpoint": "https://s3.example.com",
+  "region": "us-east-1",
+  "bucket": "your-bucket",
+  "prefix": "daily-backup",
+  "accessKey": "",
+  "secretKey": "",
+  "sessionToken": "",
+  "pathStyle": true,
+  "sources": [
+    {
+      "name": "project-a",
+      "path": "C:/data/project-a"
+    },
+    {
+      "name": "project-b",
+      "path": "D:/data/project-b"
+    }
+  ]
+}

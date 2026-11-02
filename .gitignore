@@ -1,0 +1,15 @@
+# Local credentials and machine-specific configuration
+backup.json
+*.local.json
+config.local.json
+
+# Local build artifacts and bundled third-party executables
+*.exe
+*.exe~
+/dist/
+/build/
+
+# Go tooling
+/vendor/
+*.test
+*.out
